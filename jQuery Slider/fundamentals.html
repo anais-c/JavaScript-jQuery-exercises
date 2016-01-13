@@ -1,0 +1,35 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>Learn jQuery</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<style>
+		  .red{color: red;}
+		  .green{color: green;};
+		</style>
+		<script>
+		  $(document).ready(function() {
+		  	/*$('.myLink').on('click', function() {
+          $('h1').addClass('red');
+          $('h1').fadeToggle(500);
+		  	});
+
+		  	$('.myLink').on('mouseenter', function() {
+          $('h1').slideUp(500);
+		  	});
+        */
+
+        $('.myLink').click(function() {
+        	//$('h1').html('<h3>Hello World</h3>');
+        	$('h1').css('font-size', '40px');
+        })  ;
+        
+		  });
+		</script>
+
+	</head>
+	<body>
+		<h1>Welcome Everyone</h1>
+		<a href="#" class="myLink">Click Me</a>
+	</body>
+</html>
