@@ -161,7 +161,7 @@ function prevPage() {
 // Build Output
 function getOutput(item) {
 	var videoId = item.id.videoId;
-	var title = item.snippet .title;
+	var title = item.snippet.title;
 	var description = item.snippet.description;
 	var thumb = item.snippet.thumbnails.high.url;
 	var channelTitle = item.snippet.channelTitle;
